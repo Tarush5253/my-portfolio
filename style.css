@@ -413,6 +413,11 @@ svg{
     /* height: 15rem; */
     transition: .5s ease;
 }
+@media (min-width: 617px){
+    .project-container .project-box img {
+        height: 17rem;
+    }
+} 
 
 .project-box:hover img {
     transform: scale(1.1);
@@ -686,6 +691,7 @@ svg{
     .project-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    
 }
 
 @media (max-width: 450px) {
