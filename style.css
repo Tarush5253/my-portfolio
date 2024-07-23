@@ -724,7 +724,7 @@ svg{
 
 .home-content .text-animate {
     position: relative;
-    width: 30rem;
+    width: 33rem;
     margin:1rem 0;
     
 }
@@ -754,15 +754,15 @@ svg{
 
 }
 @keyframes homeBgText {
-    0% ,0.8%,100%{
+    0% ,9.5%,100%{
         background-position: -33rem 0;
     }
-    65%,87%{
+    65%,86%{
         background-position: 0 0;
     }
 }
 @keyframes homeCurText {
-    0% ,7.5%,98.8%{
+    0% ,8.9%,100%{
         width: 0;
     }
     65%,78%,86%{

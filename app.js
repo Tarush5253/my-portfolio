@@ -57,46 +57,46 @@ ScrollReveal().reveal('.home-content p, #about-content', { origin: 'right' });
 //      backDelay:1000,
 //      loop:true
 //    });
-let num = document.getElementById("num1ber");
-let count = 0;
-setInterval(() => {
-    if (count == 95) {
-        clearInterval();
-    } else {
-        count++;
-        num.innerHTML = count + "%";
-    }
-}, 33);
-let num_2 = document.getElementById("num2ber");
-let count_2 = 0;
-setInterval(() => {
-    if (count_2 == 85) {
-        clearInterval();
-    } else {
-        count_2++;
-        num_2.innerHTML = count_2 + "%";
-    }
+// let num = document.getElementById("num1ber");
+// let count = 0;
+// setInterval(() => {
+//     if (count == 95) {
+//         clearInterval();
+//     } else {
+//         count++;
+//         num.innerHTML = count + "%";
+//     }
+// }, 33);
+// let num_2 = document.getElementById("num2ber");
+// let count_2 = 0;
+// setInterval(() => {
+//     if (count_2 == 85) {
+//         clearInterval();
+//     } else {
+//         count_2++;
+//         num_2.innerHTML = count_2 + "%";
+//     }
 
-}, 35);
-let num_3 = document.getElementById("num3ber");
-let count_3 = 0;
-setInterval(() => {
-    if (count_3 == 75) {
-        clearInterval();
-    } else {
-        count_3++;
-        num_3.innerHTML = count_3 + "%";
-    }
+// }, 35);
+// let num_3 = document.getElementById("num3ber");
+// let count_3 = 0;
+// setInterval(() => {
+//     if (count_3 == 75) {
+//         clearInterval();
+//     } else {
+//         count_3++;
+//         num_3.innerHTML = count_3 + "%";
+//     }
 
-}, 40);
-let num_4 = document.getElementById("num4ber");
-let count_4 = 0;
-setInterval(() => {
-    if (count_4 == 80) {
-        clearInterval();
-    } else {
-        count_4++;
-        num_4.innerHTML = count_4 + "%";
-    }
+// }, 40);
+// let num_4 = document.getElementById("num4ber");
+// let count_4 = 0;
+// setInterval(() => {
+//     if (count_4 == 80) {
+//         clearInterval();
+//     } else {
+//         count_4++;
+//         num_4.innerHTML = count_4 + "%";
+//     }
 
-}, 34);
+// }, 34);
